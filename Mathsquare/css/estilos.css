@@ -1,0 +1,53 @@
+body
+{
+    font-family: Times;
+     text-shadow: 2px 2px 2px white;
+    font-size: 14px;
+    background-color: #2F4F4F;
+}
+
+#chess_board td
+{
+	text-align:center;
+	vertical-align:middle;
+	border: 1px solid green;
+    text-align: center;
+    font-size: 1.8em;
+	background:#8FBC8F;
+	background:-moz-linear-gradient(top, #fff, #eee);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#fff), to(#eee));
+	font-family: Arial;
+	font-weight: bold;
+	/*cursor: pointer;*/
+}
+
+#chess_board tr:nth-child(odd) td:nth-child(even),
+#chess_board tr:nth-child(even) td:nth-child(odd)
+{
+	background:#ccc;
+	background:-moz-linear-gradient(top, #ccc, #eee);
+	background:-webkit-gradient(linear,0 0, 0 100%, from(#ccc), to(#eee));
+}
+
+td
+{
+    /*padding: 10px;*/
+    width: 50px;
+    height: 50px;
+}
+
+
+
+*:focus {
+    outline: none;
+}
+
+input
+{
+    width: 50px;
+    font-size: 1.1em;
+    text-align: center;
+    border: none;
+    height: 50px;
+    /*border-radius: 15px;*/
+}
