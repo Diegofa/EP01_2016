@@ -1,0 +1,38 @@
+
+body{
+	background-color: #008000;
+}
+
+#titulo
+{
+  text-shadow: -5px 2px 12px #ace600;
+  font-weight:normal;
+  color:#000000;
+  letter-spacing:1pt;
+  word-spacing:2pt;
+  font-size:40px;
+  text-align:center;font-family:lucida sans unicode, lucida grande, sans-serif;
+  line-height:1;margin:1px;padding:1px;
+
+}
+
+#puzzle
+{
+    margin: 0 auto;
+    background: rgba(14, 14, 14, 0.68);
+    border: 3px solid white;
+    box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.9);
+}
+
+.niveles
+{
+    height: auto;
+    margin: 0 auto;
+}
+
+#botones
+{
+    padding-top: 30px;
+    text-align: center;
+    font-size:40px;    
+}
