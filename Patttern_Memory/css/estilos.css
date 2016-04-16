@@ -1,0 +1,43 @@
+body
+{
+	/*background-image: url("../img/hongo.jpg") ;
+	background-repeat: no-repeat;
+	background-position: center;*/
+	background-color: black;
+	font-family: monospace, Arial;
+	color: white;
+	font-weight: bold;
+
+}
+
+
+
+.bloques{
+
+  border:1px solid #000;
+  position:center;
+  width:100px;
+  height:100px;
+  margin-bottom: 10px;
+}
+
+#play
+{
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  background-color: green;
+  border-radius: 50px;
+  color:white;
+}
+
+#bloque1{border-color:white;}
+#bloque2{border-color:blue;}
+#bloque3{border-color:gray;}
+#bloque4{border-color:green;}
+#bloque5{border-color:purple;}
+#bloque6{border-color:yellow;}
+#bloque7{border-color:red;}
+#bloque8{border-color:orange;}
+#bloque9{border-color:pink;}
+

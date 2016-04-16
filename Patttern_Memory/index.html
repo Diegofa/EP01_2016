@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Juego_de_Memoria</title>
+    <link rel = "stylesheet" href = "css/estilos.css">
+    <link rel = "stylesheet" href = "img/logo.png">
+    <script src="dist/sweetalert.min.js"></script> 
+    <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="dist/sweetalert2.min.js"></script>
+    
+
+    </head>
+<body>
+    <center>
+        <hr>
+        
+            <h1>PATTERN MEMORY - GAME </h1>
+            <img src="img/cuadros.jpg" height="70" width="70">
+            <pre>
+                <h2>Instrucciones</h2>
+                Este juego consiste en visualizar el patron indicado,
+                luego de unos segundos este se ocultará y el jugador deberá seleccionarlos tal y como los vio. 
+
+                <h3>A tener en cuenta</h3>     
+                Hay un tiempo determinado para visualizar el patròn, y un tiempo para seleccionarlo tal como se vio. 
+                A medida que se avance será mas dificil el juego. 
+                BUENA SUERTE!!        
+            </pre>
+            <button id="play" value="a jugar" onclick="a_Jugar()">Jugar</button>
+        
+    
+        <hr>
+        <table>
+            <tr>
+                <td><div id="bloque1" class="bloques"></div></td>
+                <td><div id="bloque2" class="bloques"></div></td>
+                <td><div id="bloque3" class="bloques"></div></td>
+            </tr>
+            <tr>
+                <td><div id="bloque4" class="bloques"></div></td>
+                <td><div id="bloque5" class="bloques"></div></td>
+                <td><div id="bloque6" class="bloques"></div></td>
+            </tr>
+            <tr>
+                <td><div id="bloque7" class="bloques"></div></td>
+                <td><div id="bloque8" class="bloques"></div></td>
+                <td><div id="bloque9" class="bloques"></div></td>
+            </tr>
+        </table>            
+
+                    
+    </center>
+    <script src = "js/script.js"></script>
+</body>
+</html>
