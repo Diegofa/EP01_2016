@@ -8,6 +8,7 @@
 		var body = document.getElementsByTagName("body");
 		// Crea un elemento <table> y un elemento <tbody>
   		var tabla   = document.createElement("table");
+		
   		var tblBody = document.createElement("tbody");
   		// Crea las celdas
   		//Se crean las filas y las columnas

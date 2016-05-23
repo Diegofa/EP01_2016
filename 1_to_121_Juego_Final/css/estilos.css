@@ -4,38 +4,58 @@ body
     font-size: 20px;
     text-align: center;
     background-image: url("../img/fondo.jpg");
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+	coo
     background-position: center center;
     position: center;
 }
 
 
-
-.botones
-{	
-	width: 90px;
-	height: 30px;
-	background: rgba(0, 0, 0, 0.7);
-	border-radius: 10px;
-	font-size: 12px;
-	border-color: purple;
-	font-weight: bold;
-	color:white;
-	cursor: pointer;
-	position: center;
-
+.intro{
+	background-color: red;
+	font-style: italic;
 }
 
 .escenariocss{
-	margin: 15px;
+	margin: 0 auto;
   	padding: 15px;
   	border-collapse: separate;
     border-spacing:  5px 15px;
 	border:  black 3px solid ;
-	background: rgba(0, 0, 0, 0.5);
-	font-weight: bold;
-	color : white;
-	 
+	color : #000000;
+	cursor: pointer;
+	background: red;
+}
+
+.action-btn
+{
+	display: inline-block;
+
+	text-align: center;
+	/*background: #0078ff;*/ /*jignesh*/
+	/*margin-right: 4px;*/
+	text-decoration: none;
+	padding: 15px 0;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px;
+}
+
+.red
+{
+	background: #134AA0 !important;
+	padding: 10px;
+}
+.green
+{
+	background: green !important;
+	padding: 10px;
+}
+
+#timer
+{
+	display: none;
 }
